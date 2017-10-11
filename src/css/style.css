@@ -1,0 +1,20 @@
+.fa {
+  font-size: 20px; }
+
+#parallax-1 {
+  position: relative;
+  min-height: 200px;
+  background: url("../images/up.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+#parallax-2 {
+  position: relative;
+  min-height: 200px;
+  background: url("../images/car.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }

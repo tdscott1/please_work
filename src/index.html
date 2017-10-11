@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photographer</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Photography</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="tips.html">Tips</a>
+                    <a class="nav-item nav-link" href="work.html">Work</a>
+                    <a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <button type="button" class="btn btn-warning ml-2" data-toggle="modal" data-target="#exampleModal">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="banner">
+        <img src="images/banner.jpg" class="img-fluid" alt="Responsive image">
+    </section>
+
+    <section id="home" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center">
+                    <div class="card">
+                        <img class="card-img-top" src="images/find.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="fa fa-binoculars pr-1" aria-hidden="true"></i>Find</h4>
+                            <p class="card-text">Excepteur esse ullamco mandaremus, voluptate illustriora ea arbitror non
+                                quamquam ubi quem ne o summis an magna, hic o esse officia, voluptate esse eram
+                                quibusdam culpa, o cillum ullamco praesentibus iis qui aliqua dolor ubi
+                                proident. Incurreret si ipsum laboris.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <div class="card">
+                        <img class="card-img-top" src="images/shoot.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="fa fa-camera-retro pr-1" aria-hidden="true"></i>Shoot</h4>
+                            <p class="card-text">Consequat familiaritatem do singulis, summis officia vidisse. Aute mentitum aut
+                                distinguantur, duis cupidatat ex praesentibus, malis singulis senserit, et
+                                arbitror voluptatibus.</p>
+                            <a href="tips.html" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <div class="card">
+                        <img class="card-img-top" src="images/edit.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="fa fa-pencil-square-o pr-1" aria-hidden="true"></i>Edit</h4>
+                            <p class="card-text">Dolore consectetur commodo dolor ullamco o varias laboris ad sunt aute. Irure
+                                litteris familiaritatem. Tamen ea incididunt, anim quamquam do relinqueret,
+                                mentitum et quibusdam, minim nam aliquip, possumus multos dolor fabulas esse ex
+                                sunt laborum ab quis enim.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="main-footer" class="text-center pt-2 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright 2017 &copy; Tristan Scott</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="container">
+                            <label><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required><br/>
+
+                            <label><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required><br />
+
+                            <input class="btn btn-warning mt-2" type="submit" value="Submit">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link"><a href="register.html">Not a member? Register Here!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
